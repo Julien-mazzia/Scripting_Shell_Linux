@@ -3,5 +3,5 @@ then
 	mkdir ServerBackUp
 fi
 
-tar zcvf ServerBackUp/ServerConf.tar.gz /etc/bind/named.conf.local
-tar zcvf ServerBackUp/DNSConf.tar.gz /etc/bind/db.workshop.fr
+tar zcvf ServerBackUp/ServerConf.tar.gz /etc/apache2/sites-available/
+tar zcvf ServerBackUp/DNSConf.tar.gz /etc/bind/
